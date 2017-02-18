@@ -2,7 +2,7 @@
 The Project for our IT-Class in School
 
 # Functions
-Several Functions used for controling the b
+Several Functions used for controling the brickfield
   (Like Falling, Moving right/left, ...)
 
 # Falling
