@@ -1,3 +1,4 @@
+#creates the fields on which the games take place.
 world = [
 [0,0,0,0,0,0,0,0,0,0],
 [0,0,0,0,0,0,0,0,0,0],
@@ -22,5 +23,6 @@ world = [
 [0,0,0,0,0,0,0,0,0,0],
 [0,0,0,0,0,0,0,0,0,0]]
 
+#We need two worlds, one for the moving Brick and one for the already placed Bricks.
 world1 = world.copy()
 world2 = world.copy()
