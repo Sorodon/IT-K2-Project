@@ -9,4 +9,7 @@ def fall(ymin, xmin, currbrickstate):
 		for x in range(1, 5):
     			world2[ymin + y][xmin + x] = currbrickstate[y][x]
 #	replaces the current brickfield with the brickfield given with curbrickstate first horizontally, then vertically
-	world2[ymin] = [0, 0, 0, 0]
+	for number in range(0, 4):
+		world2[ymin][xmin + number] = 0
+	
+	ymin += 1
