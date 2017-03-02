@@ -5,8 +5,10 @@ def left(ymin, xmin, currbrickstate):
 	for y in range(0, 4):
 		for x in range(0, 4):
 			world2[ymin + y][xmin + (x - 1)] = currbrickstate[y][x]
+	xmin -= 1
 		
 def right(ymin, xmin, currbrickstate):
 	for y in range(0, 4):
 		for x in range(0, 4):
 			world2[ymin + y][xmin + (x + 1)] = currbrickstate[y][x]
+	xmin += 1
